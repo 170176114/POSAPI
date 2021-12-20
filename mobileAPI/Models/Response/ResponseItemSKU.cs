@@ -1,0 +1,136 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace mobileAPI.Models.Response
+{
+    public class ResponseItemSKU
+    {
+        public int status { get; set; }
+        public string company_id { get; set; }
+        public string sku { get; set; }
+        public string item_no { get; set; }
+        public string attribute_1 { get; set; }
+        public string attribute_2 { get; set; }
+        public string matrix_attribute_1 { get; set; }
+        public string matrix_attribute_2 { get; set; }
+        public string attribute_1_name { get; set; }
+        public string attribute_2_name { get; set; }
+        public string item_udf_code_id { get; set; }
+        public string document_id { get; set; }
+        public string item_dept { get; set; }
+        public string item_group { get; set; }
+        public string item_subgroup { get; set; }
+        public string item_matrix_name { get; set; }
+        public string item_name { get; set; }
+        public string item_short_name { get; set; }
+        public string item_type { get; set; }
+        public string uom { get; set; }
+        public string def_vdr { get; set; }
+        public string def_location_id { get; set; }
+        public string bin_code { get; set; }
+        public decimal std_code { get; set; }
+        public decimal min_price { get; set; }
+        public decimal list_price { get; set; }
+        public decimal safe_qty { get; set; }
+        public decimal po_level { get; set; }
+        public decimal add_point_percent { get; set; }
+        public string item_color { get; set; }
+        public string style_no { get; set; }
+        public decimal main_qty { get; set; }
+        public string ref_m1 { get; set; }
+        public string ref_m2 { get; set; }
+        public string ref_m3 { get; set; }
+        public string ref_m4 { get; set; }
+        public string parts_color { get; set; }
+        public string parts_weight { get; set; }
+        public string parts_uom { get; set; }
+        public string parts_length { get; set; }
+        public string parts_ref_c1 { get; set; }
+        public string parts_ref_t1 { get; set; }
+        public string parts_ref_q1 { get; set; }
+        public string parts_ref_w1 { get; set; }
+        public string parts_ref_c2 { get; set; }
+        public string parts_ref_t2 { get; set; }
+        public string parts_ref_q2 { get; set; }
+        public string parts_ref_w2 { get; set; }
+        public string parts_ref_c3 { get; set; }
+        public string parts_ref_t3 { get; set; }
+        public string parts_ref_q3 { get; set; }
+        public string parts_ref_w3 { get; set; }
+        public string parts_ref_c4 { get; set; }
+        public string parts_ref_t4 { get; set; }
+        public string parts_ref_q4 { get; set; }
+        public string parts_ref_w4 { get; set; }
+        public string ext_field01 { get; set; }
+        public string ext_field02 { get; set; }
+        public string ext_field03 { get; set; }
+        public string ext_field04 { get; set; }
+        public string ext_field05 { get; set; }
+        public string ext_field06 { get; set; }
+        public string ext_field07 { get; set; }
+        public string ext_field08 { get; set; }
+        public string ext_field09 { get; set; }
+        public string ext_field10 { get; set; }
+        public decimal serial_yn { get; set; }
+        public decimal batch_yn { get; set; }
+        public decimal item_asm_yn { get; set; }
+        public decimal point_redeem_yn { get; set; }
+        public decimal matrix_item_yn { get; set; }
+        public decimal inactive_yn { get; set; }
+        public string modfiy_user { get; set; }
+        public DateTime modify_date { get; set; }
+        public string create_user { get; set; }
+        public DateTime create_date { get; set; }
+        public string modify_flag { get; set; }
+        public string purchaser { get; set; }
+        public decimal pos_pac { get; set; }
+        public string feature_1 { get; set; }
+        public string feature_2 { get; set; }
+        public string feature_3 { get; set; }
+        public string feature_4 { get; set; }
+        public string war_and_cond_1 { get; set; }
+        public string war_and_cond_2 { get; set; }
+        public string vintage { get; set; }
+        public string producer { get; set; }
+        public string classification { get; set; }
+        public string region { get; set; }
+        public string appellation { get; set; }
+        public string grape_variety { get; set; }
+        public string country { get; set; }
+        public string size_ml { get; set; }
+        public string item_matrix_name_1 { get; set; }
+        public string item_name_1 { get; set; }
+        public string item_short_name_1 { get; set; }
+        public string item_matrix_name_2 { get; set; }
+        public string item_name_2 { get; set; }
+        public string item_short_name_2 { get; set; }
+        public decimal non_disc_item_yn { get; set; }
+        public decimal coupon_item_yn { get; set; }
+        public DateTime coupon_effective_from { get; set; }
+        public DateTime coupon_effective_to { get; set; }
+        public string item_cut { get; set; }
+        public string item_clarity { get; set; }
+        public decimal online_yn { get; set; }
+        public decimal webstock_yn { get; set; }
+        public decimal web_price { get; set; }
+        public decimal package_yn { get; set; }
+        public string accode_01 { get; set; }
+        public string accode_02 { get; set; }
+        public string accode_03 { get; set; }
+        public string accode_04 { get; set; }
+        public string accode_05 { get; set; }
+        public string accode_06 { get; set; }
+        public string accode_07 { get; set; }
+        public string accode_08 { get; set; }
+        public string accode_09 { get; set; }
+        public string accode_10 { get; set; }
+        public string accode_11 { get; set; }
+        public string accode_12 { get; set; }
+        public string accode_13 { get; set; }
+        public string accode_14 { get; set; }
+        public string accode_15 { get; set; }
+
+    }
+}
